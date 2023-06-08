@@ -1,10 +1,11 @@
 # (C) Copyright 2019 Syncsort Incorporated. All rights reserved.
-apiVersion: policy/v1beta1
+apiVersion: policy/v1
 kind: PodSecurityPolicy
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "270"
   name: "ibm-b2bi-psp"
+  namespace: b2bi-prod
   labels:
     app: "ibm-b2bi-psp"
 spec:

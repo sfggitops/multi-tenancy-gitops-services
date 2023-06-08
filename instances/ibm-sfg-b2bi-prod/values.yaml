@@ -17,18 +17,18 @@ ibm-sfg-prod:
   appResourcesPVC:
     enabled: true
     name: resources
-    storageClassName: ibmc-file-gold
+    storageClassName: ocs-storagecluster-cephfs
     accessMode: ReadWriteMany
     size: 100Mi
   appLogsPVC:
     name: logs
-    storageClassName: ibmc-file-gold
+    storageClassName: ocs-storagecluster-cephfs
     accessMode: ReadWriteMany
     size: 500Mi
   appDocumentsPVC:
     enabled: true
     name: documents
-    storageClassName: ibmc-file-gold
+    storageClassName: ocs-storagecluster-cephfs
     accessMode: ReadWriteMany
     size: 500Mi
   security:

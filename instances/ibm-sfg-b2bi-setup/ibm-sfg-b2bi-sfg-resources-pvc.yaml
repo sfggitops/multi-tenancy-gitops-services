@@ -13,7 +13,7 @@ metadata:
   #   release: ibm-sfg-b2bi
 spec:
   accessModes:
-    - ReadOnlyMany
+    - ReadWriteMany
   selector:
     matchExpressions:
       - key: intent

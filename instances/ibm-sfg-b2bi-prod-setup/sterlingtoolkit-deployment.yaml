@@ -19,7 +19,7 @@ spec:
         image: quay.io/hollisc/sterlingtoolkit:1.0.6
         command: ["/bin/bash", "-ce", "cp /temp/db2jcc4.jar /var/nfs-data/resources/ && tail -f /dev/null"]
         securityContext:
-          runAsUser: 1010
+          runAsUser:
         volumeMounts:
         - mountPath: /var/nfs-data/resources
           name: volume

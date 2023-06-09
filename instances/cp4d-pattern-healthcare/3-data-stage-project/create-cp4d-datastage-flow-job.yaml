@@ -20,7 +20,7 @@ spec:
           - name: create-cp4d-datastage-flow
             mountPath: /cpd-scripts
       securityContext:
-        runAsUser: 1010
+        runAsUser: 
       serviceAccountName: cpd-demo-sa
       restartPolicy: Never
       volumes:

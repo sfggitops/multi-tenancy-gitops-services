@@ -33,8 +33,8 @@ ibm-sfg-prod:
     size: 500Mi
   security:
     supplementalGroups: [65534]
-    fsGroup: 1000800001
-    runAsUser: 1000800001
+    fsGroup: 1000810001
+    runAsUser: 1000810001
   dataSetup:
     enabled: true
     upgrade: false

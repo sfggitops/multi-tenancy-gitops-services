@@ -39,7 +39,7 @@ requiredDropCapabilities:
 - SETGID
 - SETUID
 - DAC_OVERRIDE
-runAsUser: 1000810000
+runAsUser: 0
   type: MustRunAsNonRoot
 seLinuxContext:
   type: RunAsAny

@@ -18,7 +18,7 @@ defaultAddCapabilities: []
 defaultAllowPrivilegeEscalation: false
 forbiddenSysctls:
   - "*"
-fsGroup: 1000810000
+fsGroup: 0
   type: MustRunAs
   ranges:
   - min: 1

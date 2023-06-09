@@ -45,7 +45,7 @@ spec:
     ranges:
     - min: 1
       max: 4294967294
-  fsGroup: 1000810000
+  fsGroup: 1010
     rule: MustRunAs
     ranges:
     - min: 1
